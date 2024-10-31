@@ -53,19 +53,19 @@ public class AgeFinderTest {
         assertEquals(expectedResult,actualResult);
     }
 
-//
-//    @Test
-//    public void verify_when_input_is_50(){
-//
-//        String input = "GW50MXZ";
-//        AgeFinder cut = new AgeFinder();
-//        String expectedResult = "00";
-//
-//        String actualResult = cut.findNextAge(input);
-//
-//        assertEquals(expectedResult,actualResult);
-//
-//    }
+
+    @Test
+    public void verify_when_input_is_50(){
+
+        String input = "GW50MXZ";
+        AgeFinder cut = new AgeFinder();
+        String expectedResult = "00";
+
+        String actualResult = cut.findNextAge(input);
+
+        assertEquals(expectedResult,actualResult);
+
+    }
 //
 //    @Test
 //    public void verify_when_input_is_00(){
