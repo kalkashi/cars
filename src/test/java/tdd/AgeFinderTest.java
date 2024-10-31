@@ -31,17 +31,17 @@ public class AgeFinderTest {
         assertEquals("Input must not be empty",e.getMessage());
 
     }
-//    @Test
-//    public void verify_if_input_is_in_first_half_of_the_year(){
-//        String input = "GW05MXZ";
-//        AgeFinder cut = new AgeFinder();
-//        String expectedResult = "55";
-//
-//        String actualResult = cut.findNextAge(input);
-//
-//        assertEquals(expectedResult,actualResult);
-//    }
-//
+    @Test
+    public void verify_if_input_is_in_first_half_of_the_year(){
+        String input = "GW05MXZ";
+        AgeFinder cut = new AgeFinder();
+        String expectedResult = "55";
+
+        String actualResult = cut.findNextAge(input);
+
+        assertEquals(expectedResult,actualResult);
+    }
+
 //    @Test
 //    public void verify_if_input_is_in_second_half_of_the_year(){
 //        String input = "GW55MXZ";
