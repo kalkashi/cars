@@ -19,18 +19,18 @@ public class AgeFinderTest {
         assertEquals(expectedResult,actualResult);
     }
 
-//    @Test
-//    public void verify_empty_input(){
-//        String input = "";
-//        AgeFinder cut = new AgeFinder();
-//
-//        Exception e = assertThrows(IllegalArgumentException.class,() -> {
-//            cut.findNextAge(input);
-//        });
-//
-//        assertEquals("Input must not be empty",e.getMessage());
-//
-//    }
+    @Test
+    public void verify_empty_input(){
+        String input = "";
+        AgeFinder cut = new AgeFinder();
+
+        Exception e = assertThrows(IllegalArgumentException.class,() -> {
+            cut.findNextAge(input);
+        });
+
+        assertEquals("Input must not be empty",e.getMessage());
+
+    }
 //    @Test
 //    public void verify_if_input_is_in_first_half_of_the_year(){
 //        String input = "GW05MXZ";
