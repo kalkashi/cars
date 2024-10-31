@@ -42,17 +42,17 @@ public class AgeFinderTest {
         assertEquals(expectedResult,actualResult);
     }
 
-//    @Test
-//    public void verify_if_input_is_in_second_half_of_the_year(){
-//        String input = "GW55MXZ";
-//        AgeFinder cut = new AgeFinder();
-//        String expectedResult = "06";
-//
-//        String actualResult = cut.findNextAge(input);
-//
-//        assertEquals(expectedResult,actualResult);
-//    }
-//
+    @Test
+    public void verify_if_input_is_in_second_half_of_the_year(){
+        String input = "GW55MXZ";
+        AgeFinder cut = new AgeFinder();
+        String expectedResult = "06";
+
+        String actualResult = cut.findNextAge(input);
+
+        assertEquals(expectedResult,actualResult);
+    }
+
 //
 //    @Test
 //    public void verify_when_input_is_50(){
